@@ -1,0 +1,75 @@
+html{
+    background-color: #EEEEEE;
+    overflow-x:hidden;
+    overflow-y:hidden;
+}
+  
+body{
+  color: #212121;
+  background-color: #EEEEEE;
+  font-size: 1.2em;
+}
+  
+a{
+    color: #212121;
+}
+a:focus,a:hover{
+  color: #ffd369;
+  text-decoration: none;
+}
+.yellow{
+    color: #ffd369;
+  }
+.jc-ac{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-box{
+    margin-top: 1.5em;
+    width: 50em;
+    height: 80vh;
+}
+.top-box-div{
+    font-size: 2.5em;
+    font-weight: bold;
+    width: 49%;
+    display: inline-block;
+}
+
+#score{
+    text-align: right;
+}
+
+@media (max-width:800px) {
+    .top-box{
+        width: 90%;
+    }
+    #score{
+        text-align: center;
+    }
+    .top-box-div{
+        width: 100%;
+    }
+}
+
+.center{
+  text-align: center;
+}
+
+.arnay-face{
+    width: 100%;
+    text-align: center;
+}
+#arnay{
+    width: 15em;
+    -webkit-filter: drop-shadow(12px 12px 0 #ffd369);
+    filter: drop-shadow(12px 12px 0 #ffd369);
+    padding: 0.5em;
+}
+#hand{
+    width: 7em;
+    position: absolute;
+    z-index: 10;
+}
